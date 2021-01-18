@@ -1,19 +1,57 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <MyComponent msg="App-test" />
+    <!-- <TemplateSyntax msg="TemplatessSyntax"/> -->
+    <Counter />
+    <br />
+    <Props />
+    <br />
+    <Computed />
+    <br />
+    <Methods />
+    <br />
+    <WatchedProperty />
+    <br />
+    <BindingHtmlClasses />
+    <br />
+    <ConditionalRendering />
+    <br />
+    <ListRendering />
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import MyComponent from "./components/MyComponent.vue";
+// import TemplateSyntax from './components/TemplateSyntax.vue'
+import Counter from "./components/Counter.vue";
+import Props from "./components/Props.vue";
+import Computed from "./components/Computed.vue";
+import Methods from "./components/Methods.vue";
+import WatchedProperty from "./components/WatchedProperty.vue";
+import BindingHtmlClasses from "./components/BindingHtmlClasses.vue";
+import ConditionalRendering from "./components/ConditionalRendering.vue";
+import ListRendering from "./components/ListRendering.vue";
+
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    // HelloWorld,
+    MyComponent,
+    // TemplateSyntax,
+    Counter,
+    Props,
+    Computed,
+    Methods,
+    WatchedProperty,
+    BindingHtmlClasses,
+    ConditionalRendering,
+    ListRendering,
+  },
+};
 </script>
 
 <style>
