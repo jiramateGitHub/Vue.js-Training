@@ -34,8 +34,6 @@ import WatchedProperty from "./components/WatchedProperty.vue";
 import BindingHtmlClasses from "./components/BindingHtmlClasses.vue";
 import ConditionalRendering from "./components/ConditionalRendering.vue";
 import ListRendering from "./components/ListRendering.vue";
-
-
 export default {
   name: "App",
   components: {
